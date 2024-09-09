@@ -8,3 +8,8 @@ defunciones:
 data_con_glosa_sexo_transformado:
   type: pandas.CSVDataset
   filepath: data/02_intermediate/sexo_int.csv  # Ruta donde se guardarán los datos filtrados
+
+
+lugar_defunciones:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/lugar_defunciones.csv  # Ruta donde se guardarán los datos filtrados
