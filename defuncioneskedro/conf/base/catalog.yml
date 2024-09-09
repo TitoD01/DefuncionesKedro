@@ -1,0 +1,10 @@
+defunciones:
+  type: pandas.CSVDataset
+  filepath: data/01_raw/DEFUNCIONES.csv  # Ajusta esta ruta a tu archivo de datos
+  load_args:
+    delimiter: ';' 
+    encoding: 'latin-1'
+
+data_con_glosa_sexo_transformado:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/sexo_int.csv  # Ruta donde se guardarán los datos filtrados
