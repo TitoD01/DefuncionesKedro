@@ -13,3 +13,13 @@ data_con_glosa_sexo_transformado:
 lugar_defunciones:
   type: pandas.CSVDataset
   filepath: data/02_intermediate/lugar_defunciones.csv  # Ruta donde se guardarán los datos filtrados
+
+data_sin_columnas:
+  type: pandas.CSVDataset
+  filepath: data/02_intermediate/eliminar_columnas.csv  # Ruta donde se guardarán los datos filtrados después de eliminar columnas
+
+
+
+
+
+
