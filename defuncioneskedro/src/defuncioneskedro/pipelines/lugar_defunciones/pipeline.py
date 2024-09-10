@@ -11,7 +11,7 @@ def create_pipeline(**kwargs) -> Pipeline:
     return pipeline([
         node(
                 func=transformar_lugar_defuncion,
-                inputs="data_con_glosa_sexo_transformado",  # Ajusta esto a tu entrada real
-                outputs="lugar_defunciones",  # Ajusta esto a tu salida real
+                inputs="data_con_glosa_sexo_transformado", 
+                outputs="lugar_defunciones",  
                 name="transformar_lugar_defuncion_node"
             ),])

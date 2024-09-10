@@ -17,7 +17,7 @@ def register_pipelines() -> Dict[str, Pipeline]:
     pipelines = find_pipelines()
     pipelines["1"]= sexo_int()
     pipelines["2"]= lugar_defunciones()
-    pipelines["3"] = eliminar_columnas()  # Registra el pipeline eliminar_columnas
+    pipelines["3"] = eliminar_columnas()  
 
     pipelines["__default__"] = sum(pipelines.values())
     return pipelines

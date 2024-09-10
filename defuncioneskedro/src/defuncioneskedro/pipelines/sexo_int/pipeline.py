@@ -11,7 +11,7 @@ def create_pipeline(**kwargs) -> Pipeline:
     return Pipeline([            
             node(
                 func=transformar_glosa_sexo,
-                inputs="defunciones",  # Nombre del dataset en catalog.yml
-                outputs="data_con_glosa_sexo_transformado",  # Nombre del dataset de salida
+                inputs="defunciones",  
+                outputs="data_con_glosa_sexo_transformado", 
                 name="transformar_glosa_sexo_node"
             ),])

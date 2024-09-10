@@ -1,23 +1,22 @@
 defunciones:
   type: pandas.CSVDataset
-  filepath: data/01_raw/DEFUNCIONES.csv  # Ajusta esta ruta a tu archivo de datos
+  filepath: data/01_raw/DEFUNCIONES.csv  
   load_args:
     delimiter: ';' 
     encoding: 'latin-1'
 
 data_con_glosa_sexo_transformado:
   type: pandas.CSVDataset
-  filepath: data/02_intermediate/sexo_int.csv  # Ruta donde se guardarán los datos filtrados
+  filepath: data/02_intermediate/sexo_int.csv  
 
 
 lugar_defunciones:
   type: pandas.CSVDataset
-  filepath: data/02_intermediate/lugar_defunciones.csv  # Ruta donde se guardarán los datos filtrados
+  filepath: data/02_intermediate/lugar_defunciones.csv  
 
 data_sin_columnas:
   type: pandas.CSVDataset
-  filepath: data/02_intermediate/eliminar_columnas.csv  # Ruta donde se guardarán los datos filtrados después de eliminar columnas
-
+  filepath: data/02_intermediate/eliminar_columnas.csv  
 
 
 
